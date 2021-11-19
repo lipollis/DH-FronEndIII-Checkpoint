@@ -10,7 +10,7 @@ import LinkedIn from "../Imagens/Rede_social/socialLinkedin.svg";
 import GitHub from "../Imagens/Rede_social/socialGithub.svg";
 import Email from "../Imagens/Rede_social/socialMail.svg";
 import WhatsApp from "../Imagens/Rede_social/socialWhatsapp.svg";
-import assinatura from "../Imagens/spider-web.png"
+import assinatura from "../Imagens/sun.jpg"
 
 
 
