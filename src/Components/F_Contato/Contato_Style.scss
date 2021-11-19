@@ -1,0 +1,127 @@
+
+.contacts {
+    background: rgb(53, 56, 57);
+    padding-bottom: 3rem;
+  }
+  
+  .contacts h1 {
+    color: var(--cor-laranja);
+    padding: 1.3rem;
+    text-transform: uppercase;
+  }
+  
+  .contacts p {
+    color: darkgray;
+    font-size: 1.2rem;
+  }
+
+  .contato-h1{
+    text-decoration: none;
+  }
+  
+  // *********************************************
+  //        #######   INPUT   #######
+  // *********************************************
+  
+  .contacts input,
+  .contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--cor-cinza);
+    border-radius: 0;
+    color: var(--cor-laranja);
+    outline: 0 !important;
+    box-shadow: none !important;
+    top: 0;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+    font-size: 1.5rem;
+  }
+  
+  .contacts textarea {
+    padding-bottom: 2rem;
+  }
+  
+  .contacts .container {
+    padding: 4rem 0;
+  }
+  
+  .contacts input:focus,
+  .contacts textarea:focus {
+    background: transparent;
+    color: var(--cor-laranja);
+    border-bottom: 0.125rem ;
+    
+  }
+  
+  .contacts textarea {
+    height: 16.2rem !important; //alinhamento da linha assunto e mensagem
+  }
+  
+  .contact-btn {
+    width: 100%;
+    background: transparent;
+    margin: 1rem 0 0 0;
+  }
+
+  input:focus + .line,
+  textare:focus + .line {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  input.form-control {
+    margin: -0.3rem 0;
+  }
+  
+  textarea.form-control {
+    margin: -0.3rem 0;
+  }
+  
+  textarea:focus + .line,
+  textare:focus + .line {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -ms-user-select:none;
+  }
+
+  .line {
+    position: relative;
+    top: -0.8rem;
+    width: 0;
+    height: 0.125rem;
+    background: var(--cor-laranja);
+    display: inline-block;
+  }
+  
+  // *********************************************
+  //        #######   RESPONSIVIDADE   #######
+  // *********************************************
+  @media (max-width: 768px) {
+    .contacts {
+      overflow-x: hidden;
+    }
+    .contacts .container {
+      padding: 0 1rem;
+    }
+    .contacts p {
+      padding: 0 0.4rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  

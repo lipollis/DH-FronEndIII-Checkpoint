@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// eslint-disable-next-line
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Component } from 'react';
+import Navbar from "./Components/A_Navbar/Navbar";
+import Banner from "./Components/B_Banner/Banner";
+import About from "./Components/C_About/About";
+import LinhaTempo from "./Components/D_LinhaTempo/Tempo";
+import MapCards from "./Components/E_Portifolio/MapCard";
+import Formulario from "./Components/F_Contato/Formulario"
+import Footer from "./Components/G_Footer/Footer";
+import './App.scss';
+
+export default class App extends Component {
+
+  constructor() {
+    super( );
+  
+
+ this.user = 'Aline Pollis';
+  }
+  render() {
+    return (
+      <>
+        <Navbar />
+        <Banner />
+        <About />
+        <LinhaTempo />
+        <MapCards />
+        <Formulario />
+        <Footer owner={this.user} />
+      </>
+    );
+  }
+
 }
-
-export default App;

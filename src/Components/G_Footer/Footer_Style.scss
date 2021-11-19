@@ -1,0 +1,103 @@
+
+
+
+// *********************************************
+// #######   CONFIGURAÇÃO DO COMPONENTE   #######
+// *********************************************
+
+footer{
+  z-index: 4;
+  position: sticky;
+}
+
+#footer {
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+    &::first-letter {
+      color: var(--cor-vermelha);
+    }
+  }
+}
+
+p{
+  padding: 0.25rem;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.d-flex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.assinatura{
+  width: 50px;
+}
+
+.footer {
+  background: black;
+  color: darkgray;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--cor-laranja);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+
+.redeSocial{
+  width: 40px;
+  margin: 0.5rem;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+  // *********************************************
+  //        #######   RESPONSIVIDADE   #######
+  // *********************************************
+  @media (max-width: 768px) {
+    .footer-nav{
+      font-size: 1rem;
+      
+    }
+    .col-nav-footer{
+      margin: 3rem;
+      text-align: center;
+      align-items: center;
+    }
+
+    #footer {
+      h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        align-items: center;
+        margin: 2rem;
+        &::first-letter {
+          color: var(--cor-vermelha);
+        }
+      }
+      p{
+        font-size: 0.7rem;
+      }
+    }
+
+    
+  }
+  
+  

@@ -1,0 +1,129 @@
+
+// importação da font:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+// *********************************************
+//     #######   IMAGEM DE FUNDO #######
+// *********************************************
+.header-wraper{
+  position: relative;
+  background: url(../Imagens/wallpapper.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+// *********************************************
+// #######   BOTÃO E TEXTO DO COMPONENTE   #######
+// *********************************************
+.main-info {
+  display: flex;
+  position: absolute;
+  // para centralizar
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family:'Roboto', sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  margin-top: 0rem;
+  font-weight: 600;
+  color: gold;
+  text-transform: uppercase;
+  text-shadow: 5px 5px var(--fundo-escuro);
+  box-shadow: #19395B;
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 2rem !important;
+  }
+}
+
+// *********************************************
+//        #######   TYPED TEXT   #######
+// *********************************************
+.typed-text{
+  font-size:3rem;
+  color: var(--cor-destaque);
+  // box-shadow: inset 0 0 1em gold;
+  text-transform: uppercase;
+  margin-top: 20vh;
+  margin-left: 70vw;
+  text-shadow: 5px 5px 5px var(--cor-laranja);
+}
+
+// *********************************************
+//           #######   BOTÃO   #######
+// *********************************************
+.main-info button{
+  padding: 1rem 1rem 1rem 1rem;
+  border:1px solid var(--cor-destaque);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--cor-laranja);
+  margin-top: 20vh;
+  background: transparent;
+}
+
+.btn-main-offer {
+  font-family: Verdana, sans-serif;
+  font-weight: 300;
+  border: 1px solid var(--cor-vermelha);
+  border-radius: 5%;
+  text-transform: uppercase;
+  padding: 1rem 1rem 1rem 1rem;
+  color: var(--cor-destaque);
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--cor-vermelha);
+  color: var(--cor-destaque);
+  transition: 0.2s ease-in-out;
+}
+
+// *********************************************
+//          #######   PARTICLES   #######
+// *********************************************
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1 !important;
+  
+}
+
+// *********************************************
+//     #######   RESPONSIVIDADE   #######
+// *********************************************
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 1.5rem !important;
+    margin-top: 30vh;
+    margin-left: 0;
+  }
+
+  .main-info a{
+    margin-top: 10vh;
+    font-size: 1rem !important;
+  }
+
+  #tsparticles{
+    display: none;
+  }
+}

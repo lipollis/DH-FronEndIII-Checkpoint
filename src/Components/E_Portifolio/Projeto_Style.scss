@@ -1,0 +1,114 @@
+// *********************************************
+// #######   CONFIGURAÇÃO DO COMPONENTE   #######
+// *********************************************
+:root{
+    --cor-destaque: #FFFF;
+    --cor-vermelha: #FF4A3B;
+    --cor-amarela: #DABA36;
+    --fundo-escuro:#19395B;
+    --cor-laranja: #E48877;
+    --cor-preta:rgb(255,255,255,0);
+    --cor-cinza:#9B94B5;
+    --cor-cinza-escuro:#404040;
+  }
+  
+  body{
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  // *********************************************
+  //        #######   PORTIFOLIO   #######
+  // *********************************************
+  .portfolio {
+    display: block;
+    text-align: center;
+    padding-bottom: 5rem;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  }
+  
+  .background{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  }
+  
+  .portfolio-h1 {
+    padding-bottom: 10%;
+    color: var(--cor-laranja);
+    text-transform: uppercase;
+  }
+  
+  .portfolio 
+  .card {
+    width: 18rem;
+    color: var(--cor-destaque);
+    height: 25rem;
+    border-bottom: 0.3125rem solid var(--cor-laranja);
+    margin-bottom: 1.875rem;
+    // background: var(--cor-cinza);
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .portfolio 
+  .card:hover {
+    color: white;
+    border-bottom: 0.3125rem solid var(--cor-preta);
+    transform: scale(1.2);
+  }
+  
+  // *********************************************
+  //        #######   CARD   #######
+  // *********************************************
+  .card-body {
+    background: var(--cor-cinza-escuro);
+    padding: 1rem;
+    // height: 8rem;
+  }
+
+  .div-button,
+  .button-project{
+    border: 1px solid var(--cor-vermelha);
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    color: var(--cor-destaque);
+    // margin: 0.5rem;
+    width:100%;
+  }
+
+  .button-project:hover{
+    background-color: var(--cor-vermelha);
+  }
+
+  .cards.description {
+    font-size: 0.75rem;
+    text-align: justify;
+  }
+
+  .cards-title{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .imagemPortifolio {
+    width: 100%;
+    height: 90%;
+  }
+
+  // *********************************************
+  //        #######   RESPONSIVIDADE   #######
+  // *********************************************
+  
+  @media (max-width: 768px) {
+    .portfolio 
+    .card {
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
