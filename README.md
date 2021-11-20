@@ -6,17 +6,25 @@
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
-
+<br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></img><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></img><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></img>
+<br>
+ <a href="https://vibrant-hawking-ad7957.netlify.app/" align-items-center> -> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <- </img></a>
+<br>
+:sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny:
+<br>
 ## Getting Started with Create React App
-
-### `npm install`
-### `npm start`
-### `npm install sass`
-### `npm install formik`
-### `npm install sweetalert2`
-### `npm install react-tsparticles react`
-### `npm install typed.js`
-
+<ul>
+    <li>### `npm install`</li>
+    <li>### `npm start`</li>
+    <li>### `npm install sass`</li>
+    <li>### `npm install formik`</li>
+    <li>### `npm install sweetalert2`</li>
+    <li>### `npm install react-tsparticles react`</li>
+    <li>### `npm install typed.js`</li>
+</ul>
+<br>
+<br>
 ## Requisitos de entrega
 
 * O projeto deve ser feito com Bootstrap e SASS.
@@ -39,7 +47,7 @@ redirecionamento). Projetos a serem listados, no mínimo 3.
 (Linkedin, Github e email). Esses itens deverão utilizar ícones para fazer o
 redirecionamento.
 
-
+<br>
 ## Delivery requirements
 
 * The project must be done with Bootstrap and SASS.
