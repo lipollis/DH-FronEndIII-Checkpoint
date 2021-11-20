@@ -13,7 +13,7 @@
 <br>
   <div align="center"><a href="https://vibrant-hawking-ad7957.netlify.app/" align-items-center> -> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <- </img></a></div>
 <br>
-:sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny:
+<div align="center">:sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny:</div>
 <br>
 <br>
 
@@ -21,16 +21,17 @@
 <br>
 <br>
 <ul>
-    <li>### `npm install`</li>
-    <li>### `npm start`</li>
-    <li>### `npm install sass`</li>
-    <li>### `npm install formik`</li>
-    <li>### `npm install sweetalert2`</li>
-    <li>### `npm install react-tsparticles react`</li>
-    <li>### `npm install typed.js`</li>
+    <li>$ npm install</li>
+    <li>$ npm start</li>
+    <li>$ npm install sass</li>
+    <li>$ npm install formik</li>
+    <li>$ npm install sweetalert2</li>
+    <li>$ npm install react-tsparticles react</li>
+    <li>$ npm install typed.js</li>
 </ul>
 <br>
 <br>
+
 ## Requisitos de entrega
 
 * O projeto deve ser feito com Bootstrap e SASS.
