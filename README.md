@@ -1,17 +1,22 @@
 
-![DH](/src/Components/Imagens/Banner.jpg)
 
-# CHECKPOINT Front End III - CTD:Digital House
+<div align="right"> <img src="https://github.com/lipollis/Imagens-Git/blob/main/sun%20-%20git.jpg" width="50px"/> <div
+
+<h1 align="center"> CHECKPOINT Front End III - CTD:Digital House </h1>
 
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
 <br>
 <div align="center">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></img><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></img><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></img>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></img><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></img><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></img><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></img><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
 </div>
 <br>
+<br>
+<br>
+<h2 align="center"> CLOUND </h2>
   <div align="center"><a href="https://vibrant-hawking-ad7957.netlify.app/" align-items-center> -> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <- </img></a></div>
+  <div align="center"><a href="https://dh-front-end-iii-checkpoint.vercel.app/" align-items-center> -> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"> <- </img></a></div>
 <br>
 <div align="center">:sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny:</div>
 <br>
