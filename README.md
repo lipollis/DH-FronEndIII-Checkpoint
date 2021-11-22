@@ -1,6 +1,6 @@
 
 
-<div align="right"> <img src="https://github.com/lipollis/Imagens-Git/blob/main/sun%20-%20git.jpg" width="50px"/> <div
+<div align="right"> <img src="https://github.com/lipollis/Imagens-Git/blob/main/sun%20-%20git.jpg" width="50px"/> </div>
 
 <h1 align="center"> CHECKPOINT Front End III - CTD:Digital House </h1>
 
@@ -40,7 +40,7 @@
 <br>
 
 
-<div align="left">
+<div align="justify">
 	<h2> Requisitos de entrega </h2>
 	<ul>
 	    <li>O projeto deve ser feito com Bootstrap e SASS.</li>
@@ -53,7 +53,7 @@
 <br>
 
 
-<div align="left">
+<div align="justify">
 	<h2> Delivery requirements </h2>
 	<ul>
 	    <li>The project must be done with Bootstrap and SASS.</li>
