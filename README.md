@@ -15,8 +15,8 @@
 <br>
 <br>
 <h2 align="center"> CLOUD </h2>
-  <div align="center"><a href="https://vibrant-hawking-ad7957.netlify.app/" align-items-center> -> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <- </img></a></div>
-  <div align="center"><a href="https://dh-front-end-iii-checkpoint.vercel.app/" align-items-center> -> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"> <- </img></a></div>
+  <div align="center"><a href="https://vibrant-hawking-ad7957.netlify.app/" target="_blank" align-items-center> -> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <- </img></a></div>
+  <div align="center"><a href="https://dh-front-end-iii-checkpoint.vercel.app/" target="_blank" align-items-center> -> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"> <- </img></a></div>
 <br>
 <div align="center">:sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny::sunny:</div>
 <br>
