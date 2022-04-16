@@ -5,15 +5,14 @@
 <h1 align="center"> CHECKPOINT Front End III - CTD:Digital House </h1>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚀  React Select  🚀
 </h4>
 <br>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="70px"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width="70px" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="70px" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="70px" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="70px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="70px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="70px" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="70px" />
   <br>
   <br>
@@ -31,17 +30,34 @@
 ## Getting Started with Create React App
 <br>
 <br>
-<div align="left">
-	<ul>
-	    <li>$ npm install</li>
-	    <li>$ npm start</li>
-	    <li>$ npm install sass</li>
-	    <li>$ npm install formik</li>
-	    <li>$ npm install sweetalert2</li>
-	    <li>$ npm install react-tsparticles react</li>
-	    <li>$ npm install typed.js</li>
-	</ul>
-</div>
+
+```bash
+npm install
+```
+```bash
+npm start
+```
+
+```bash
+npm install sass
+```
+
+```bash
+npm install formik
+```
+
+```bash
+npm install sweetalert2
+```
+
+```bash
+npm install react-tsparticles react
+```
+
+```bash
+npm install typed.js
+```
+
 <br>
 <br>
 
